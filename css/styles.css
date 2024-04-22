@@ -25,6 +25,7 @@ body {
 	background-color: #fff;
 	font-family: var(--font-primary);
 	color: var(--color-description);
+	margin: auto;
 }
 
 a {
@@ -170,6 +171,8 @@ ul {
 /* Main */
 /* Hero section */
 .hero-section {
+	width: 100vw;
+	background-color: var(--color-background-secondary);
 	background-image: linear-gradient(
 			0deg,
 			rgba(47, 48, 58, 0.4),
@@ -178,6 +181,7 @@ ul {
 		url('../images/index/hero-background.jpg');
 	max-width: 100%;
 	padding: 200px 450px;
+	background-repeat: no-repeat;
 }
 
 .hero-section__container {

@@ -74,11 +74,10 @@
 					<h1 class="hero-section__title">
 						EFFECTIVE SOLUTIONS FOR YOUR BUSINESS
 					</h1>
-					<button type="button" class="hero-section__button btn">
+					<button data-modal-open type="button" class="hero-section__button btn" >
 						Request our service
 					</button>
 				</div>
-				<div class="modal" data-modal></div>
 			</section>
 			<!-- Atribute section -->
 			<section class="section">
@@ -567,10 +566,19 @@
 							</div>
 						</a>
 					</div>
-
 				</div>
 			</div>
 		</footer>
+		<!-- Modal -->
+		<div data-modal class="modal__backdrop is-hidden">
+			<div class="modal">
+				<button type="button" data-modal-close class="modal__close-btn flex center">
+					<svg class="modal__close-icon">
+						<use href="./images/icons/close-icon.svg#close-icon" ></use>
+					</svg>
+				</button>
+			</div>
+		</div>
 		<script src="./modal.js"></script>
 	</body>
 </html>

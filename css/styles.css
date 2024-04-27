@@ -145,7 +145,7 @@ ul {
 	width: 100%;
 }
 
-.header__link:active::after{
+.header__link::after:active{
 	width: 100%;
 }
 

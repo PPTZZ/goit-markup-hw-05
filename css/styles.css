@@ -158,10 +158,6 @@ ul {
   width: 100%;
 }
 
-.header__link::after:active {
-  width: 100%;
-}
-
 .header__link:hover,
 .header__link:focus {
   color: var(--color-primary);
